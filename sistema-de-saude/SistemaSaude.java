@@ -39,6 +39,8 @@
       System.out.println("Insira a sua idade: ");
       idade = in.nextDouble();
 
+      in.close();
+      
       //Agora que recebemos todas as informações, vamos calcular o IMC:
       double imc = calcularImc(peso, altura);
 
